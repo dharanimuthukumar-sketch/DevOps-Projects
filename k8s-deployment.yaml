@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: brain-tasks-container
-        image: REPLACE_WITH_YOUR_ECR_URI_HERE:latest
+        image: ://amazonaws.com
         ports:
         - containerPort: 3000
