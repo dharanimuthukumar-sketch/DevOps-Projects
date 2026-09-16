@@ -14,6 +14,8 @@ spec:
       labels:
         app: brain-tasks
     spec:
+      imagePullSecrets:
+        - name: regcred
       containers:
       - name: brain-tasks-container
         image: 494873120327.dkr.ecr.us-east-1.amazonaws.com/brain-tasks-app:latest
